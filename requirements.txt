@@ -5,4 +5,5 @@ plotly
 seaborn
 streamlit
 streamlit-option-menu
+sklearn
 
