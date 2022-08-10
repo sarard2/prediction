@@ -86,7 +86,7 @@ if selected=="Overview":
 #Analysis page
 if selected=="Analysis":
     st.write("Analysis Page")
-    st.image("https://github.com/sarard2/health/blob/main/2.jpg")
+    st.image("hi.png")
 #RFM page
 if selected=="RFM":
     st.write("RFM Page")
