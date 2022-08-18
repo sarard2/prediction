@@ -95,8 +95,8 @@ if selected=="Overview":
     col1,col2=st.columns(2)
     with col1:
         st.write("Project Overview")
-    with col2:
-        #st.image("home.jpeg")
+
+     
     with st.expander("Have a look at the dataset format!"):
          st.dataframe(df)
 
