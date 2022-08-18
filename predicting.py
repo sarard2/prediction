@@ -84,7 +84,7 @@ with col3:
     st.markdown("""<hr style="height:3px;border:none;color:#00ced1;background-color:#1F628E;" /> """, unsafe_allow_html=True)
 
 #Reading cleaned data
-#df=pd.read_csv(r"C:\Users\Sara\Desktop\Capstone\transactions.csv")
+
 
 
 #Overview page
@@ -96,7 +96,7 @@ if selected=="Overview":
     with col1:
         st.write("Project Overview")
     with col2:
-        st.image("home.jpeg")
+        #st.image("home.jpeg")
     with st.expander("Have a look at the dataset format!"):
          st.dataframe(df)
 
@@ -264,7 +264,7 @@ if selected=="RFM":
 
     col1,col2,col3=st.columns([2,1,2])
     with col3:
-        st.image("client.jpeg")
+        #st.image("client.jpeg")
 
     with col1:
         st.write("This section talks about...")
@@ -312,7 +312,7 @@ if selected=="ARM":
         #st.write(type)
 
     with col2:
-        st.image("hi.jpeg")
+        #st.image("hi.jpeg")
     st.markdown("""<hr style="height:3px;border:none;color:#00ced1;background-color:#1F628E;" /> """, unsafe_allow_html=True)
     figure=px.bar(filtered,y='ItemName',x="Quantity")
     st.plotly_chart(figure)
@@ -321,7 +321,7 @@ if selected=="ARM":
 if selected=="Prediction":
     col1,col2=st.columns([1,2])
     with col1:
-        st.image("predict.jpeg")
+        #st.image("predict.jpeg")
 
     with col2:
 
