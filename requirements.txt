@@ -7,4 +7,5 @@ streamlit
 streamlit-option-menu
 sklearn
 fbprophet
+pystan
 
