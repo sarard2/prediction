@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
-from st_aggrid import AgGrid
+#from st_aggrid import AgGrid
 import plotly
 import plotly.graph_objects as go
 import plotly.express as px
